@@ -13,13 +13,13 @@
 #### SAMPLE IMAGES
 The following can be JSON.stringified and then manually loaded into MongoDB for test-driving purposes, or just entered one by one using the front end UI.
 
-```javascript
-  sample.images = [
+```json
+[
     { 
       "album": "Bunnies",
       "title": "Snuggly-wuggly", 
       "url": "http://f.cl.ly/items/3g3J1G0w122M360w380O/3726490195_f7cc75d377_o.jpg", 
-      "description": "Aren\'t I the little dickens!" 
+      "description": "Aren't I the little dickens!" 
     },
     { 
       "album": "Bunnies",
@@ -64,6 +64,6 @@ The following can be JSON.stringified and then manually loaded into MongoDB for 
       "description": "Can I sleep in your pocket?" 
     }
   
-  ];
+  ]
 
 ```
