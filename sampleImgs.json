@@ -1,25 +1,9 @@
-#### TO E2E TEST USING PROTRACTOR:
-
-1. Download and Install the JDK (webdriver needs it to work)
-2. `npm i protractor -D` in project of interest
-3. put in scripts for `update-webdriver` and optionally `e2e`
-4. `npm run update-webdriver`
---- if all goes well, jdk install was good ---
-5. Setup `protractor.conf.js`
-6. Put test in place
-7. `npm run e2e`
-
-
-#### SAMPLE IMAGES
-The following can be JSON.stringified and then manually loaded into MongoDB for test-driving purposes, or just entered one by one using the front end UI.
-
-```javascript
-  sample.images = [
+[
     { 
       "album": "Bunnies",
       "title": "Snuggly-wuggly", 
       "url": "http://f.cl.ly/items/3g3J1G0w122M360w380O/3726490195_f7cc75d377_o.jpg", 
-      "description": "Aren\'t I the little dickens!" 
+      "description": "Aren't I the little dickens!" 
     },
     { 
       "album": "Bunnies",
@@ -64,6 +48,4 @@ The following can be JSON.stringified and then manually loaded into MongoDB for 
       "description": "Can I sleep in your pocket?" 
     }
   
-  ];
-
-```
+  ]
